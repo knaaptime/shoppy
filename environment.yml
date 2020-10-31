@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - tabulate
+  - pandoc >=2.11
+  - pandoc-crossref
+  - pytest
+  - cookiecutter
+  - watermark
+  - tectonic
+  - pip
+  - pip:
+    - pandoc-include
+    - pandoc-latex-admonition
