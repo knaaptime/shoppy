@@ -84,7 +84,7 @@ This may take 10-15 minutes to complete depending on the speed of your network c
 Once this completes, you can activate the workshop environment with:
 
 ``` bash
-conda activate {{ cookiecutter.repo_name }}
+conda activate {{ cookiecutter.project_name }}
 ```
 
 You're now all setup for the tutorial!

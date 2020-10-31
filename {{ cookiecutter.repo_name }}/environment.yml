@@ -1,4 +1,4 @@
-name: pysal-workshop
+name: {{ cookiecutter.project_name }}
 channels:
   - conda-forge
   - defaults

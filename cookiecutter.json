@@ -1,6 +1,6 @@
 {
     "github_username": "knaaptime",
-    "project_name": "project_name",
+    "project_name": "workshop_name",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "Your name",
     "author_affiliation": "Your organization/company/team)",
