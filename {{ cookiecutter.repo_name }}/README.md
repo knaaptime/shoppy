@@ -5,7 +5,7 @@ main
 {{ cookiecutter.description }}
 
 <p align="center">
-<img class="img-container" src='figs/readmefigs/spatial_logos.png' >
+<img height=200 src='figs/readmefigs/spatial_logos.png' >
 </p>
 
 ### Instructors
