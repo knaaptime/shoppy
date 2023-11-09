@@ -1,11 +1,14 @@
 # {{ cookiecutter.project_name }}
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }})
+
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/main?urlpath=lab)
-main
+
 {{ cookiecutter.description }}
 
 <p align="center">
-<img height=160 src='figs/readmefigs/spatial_logos.png' >
+<img height=260 src='docs/figs/pysal_logo.png' >
 </p>
 
 ### Instructors
@@ -47,7 +50,10 @@ main
 
 ## Getting Started
 
-**To get started immediately without installing or downloading anything, click the *"Launch Binder"* button at the top of this page**
+**To get started immediately without installing or downloading anything, click [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/main?urlpath=lab)** 
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }})
+
 
 
 If you are familiar with GitHub, you should clone or fork this GitHub repository to a specific directory. Cloning can be done by:
@@ -56,9 +62,6 @@ If you are familiar with GitHub, you should clone or fork this GitHub repository
 git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git
 ```
 
-If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git) and clicking on the green _Clone or download_ button in the upper right.
+If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git) and clicking on the green _Clone or download_ button in the upper right. Extract the downloaded zip file to a working directory.
 
-![download](figs/readmefigs/download.png)
-
-Extract the downloaded zip file to a working directory.
-
+ See the [installation instructions](installation.md) for more information on getting a python environment setup

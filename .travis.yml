@@ -24,8 +24,6 @@ before_install:
     conda env create --name TEST python=$PY --file environment.yml
     source activate TEST
     conda info --all
-    mkdir -p ~/.fonts/
-    cp -rf \{\{\ cookiecutter.repo_name\ \}\}/paper/.pandoc/fonts/* ~/.fonts/
 
 script:
   - if [[ $TRAVIS_JOB_NAME == python-* ]]; then

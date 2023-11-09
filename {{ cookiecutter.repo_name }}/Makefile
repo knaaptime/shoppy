@@ -15,7 +15,8 @@ CONDA_ENVIRONMENT = {{ cookiecutter.conda_environment }}
 
 ## Set up python interpreter environment
 environment:
-	conda env create -f environment.yml
+	conda env create -f environment.yml ;\
+	pip install -e . --no-deps
 
 ## Update the environment in case of changes to dependencies
 environment-update:
@@ -29,7 +30,6 @@ kernel:
 ## Initialize a git repository
 git:
 	git init
-
 
 ## Run notebooks
 notebooks:

@@ -3,21 +3,18 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python =3.7
+  - python =={{ cookiecutter.python_version }}
   - mamba
   - bokeh
   - pip
   - geopandas
   - descartes
   - folium
-  - ipython
-  - ipykernel
   - ipywidgets
   - jupyterlab
   - pysal
   - nbconvert
   - networkx
-  - palettable
   - scikit-learn
   - seaborn
   - statsmodels
@@ -26,8 +23,5 @@ dependencies:
   - geoviews
   - watermark
   - rasterio
-  - descartes
-  - folium
-  - cenpy
-  - pip:
-    - contextily
+  - contextily
+  - geosnap

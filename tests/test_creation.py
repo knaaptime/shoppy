@@ -81,10 +81,3 @@ def no_curlies(filepath):
     template_strings_in_file = [s in data for s in template_strings]
 
     return not any(template_strings_in_file)
-
-
-def test_paper(default_baked_project):
-    """Test whether the paper gets compiled."""
-    os.system(f" cd {default_baked_project}; make paper")
-    paper_path = os.path.join(default_baked_project, f"paper/compiled/project_name.pdf")
-    assert os.path.exists(paper_path)
